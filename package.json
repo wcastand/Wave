@@ -1,0 +1,14 @@
+{
+  "name": "wave",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "budo index.js --live -- -t babelify"
+  },
+  "dependencies": {
+    "babel-preset-latest": "^6.16.0",
+    "babelify": "^7.3.0",
+    "budo": "^9.3.0"
+  }
+}
